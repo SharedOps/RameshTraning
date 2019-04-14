@@ -12,6 +12,7 @@ namespace RameshTraning
         static void Main(string[] args)
         {
             Condition.Test("Ramesh");
+            Condition.Testing(24);
         }
     }
 }

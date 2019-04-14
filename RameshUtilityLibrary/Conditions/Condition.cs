@@ -18,5 +18,10 @@ namespace RameshUtilityLibrary.Conditions
 
         }
 
+        public static void Testing(int age)
+        {
+            Console.WriteLine("My Age is:" + age);
+        }
+
     }
 }
