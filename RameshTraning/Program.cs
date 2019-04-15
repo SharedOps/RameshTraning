@@ -11,8 +11,17 @@ namespace RameshTraning
     {
         static void Main(string[] args)
         {
-            Condition.Test("Ramesh");
-            Condition.Testing(24);
+            //Condition.Test("Ramesh");
+            //Condition.Testing(24);
+            //Condition.Ifelsecondition();
+            //Condition.switchcondition();
+            //Condition.SwitchconditionEx();
+            accessmodifier am = new accessmodifier();
+            am.Name();
+            accessmodifier1 am1 = new accessmodifier1();
+            am1.Name1();
+            accessmodifierprivate amp = new accessmodifierprivate();
+            //class member access modifier is private
         }
     }
 }
