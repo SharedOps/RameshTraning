@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Collections\ListsExample.cs" />
     <Compile Include="Conditions\Condition.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

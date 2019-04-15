@@ -22,25 +22,35 @@ namespace RameshUtilityLibrary.Conditions
         {
             Console.WriteLine("My Age is:" + age);
         }
-        public static void Ifelsecondition()
+
+        //Condition to check large number between two numbers
+        public static void CheckLargeNumber()
         {
             Console.WriteLine("Enter First No:");
             int a = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Enter Second No:");
             int b = Convert.ToInt32(Console.ReadLine());
-            if(a>=b)
+            if (a >= b)
             {
-                if(a>b)
-                Console.WriteLine("a is Greater than b");
+                if (a > b)
+                {
+                    Console.WriteLine("a is Greater than b");
+                }
                 else
-                Console.WriteLine("a is eqal to b");
+                {
+                    Console.WriteLine("a is equal to b");
+                }
             }
             else
-                Console.WriteLine("a is lessthan b");
-            Console.ReadLine();
-
+            {
+                Console.WriteLine("a is less than b");
+                Console.ReadLine();
+            }
+               
         }
-        public static void switchcondition()
+
+
+        private static void VowelConsonentChecker()
         {
             Console.WriteLine("Enter Your letter:");
             char c = Convert.ToChar(Console.ReadLine());
@@ -66,6 +76,9 @@ namespace RameshUtilityLibrary.Conditions
                     break;
             }
         }
+
+
+
         public static void SwitchconditionEx()
         {
             Console.WriteLine("Enter First No:");
