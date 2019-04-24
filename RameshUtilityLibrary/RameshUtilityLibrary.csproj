@@ -43,6 +43,8 @@
   <ItemGroup>
     <Compile Include="Collections\ListsExample.cs" />
     <Compile Include="Conditions\Condition.cs" />
+    <Compile Include="DAL\DataOps.cs" />
+    <Compile Include="DataRepository\SQLUtility.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
