@@ -15,7 +15,9 @@ namespace RameshTraning
         {
             ListsExample.CreateData();
             ListsExample.CreateNumberData();
-        
+            DictionaryExamples.CreateData();
+            SortedList.CreatSortData();
+            sortExample.CreateData();
         }
     }
 }
